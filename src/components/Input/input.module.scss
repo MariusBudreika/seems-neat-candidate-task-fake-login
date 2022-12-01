@@ -1,0 +1,43 @@
+.container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input {
+  position: relative;
+  box-sizing: border-box;
+  padding-left: 65px;
+  background-color: #1f41a9;
+  height: 50px;
+  width: 100%;
+  font-size: 19px;
+  color: #ffffff;
+  border-radius: 10px;
+  border: solid 1px #ffffff;
+
+  @media (max-width: 600px) {
+    font-size: 15px;
+  }
+
+  &Icon {
+    position: absolute;
+    color: red;
+    z-index: 1;
+    left: 15px;
+    top: 8px;
+  }
+
+  &Error {
+    position: absolute;
+    color: red;
+    margin-left: 5px;
+  }
+}
+
+.input:focus {
+  outline: red;
+}
+
+.input::placeholder {
+  color: white;
+}

@@ -1,0 +1,33 @@
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 430px;
+  min-width: 250px;
+}
+
+.login {
+  text-align: center;
+  font-size: 48px;
+  line-height: 2;
+}
+
+.paragraph {
+  font-size: 18px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.emtyEmail {
+  color: #fa3d3d;
+  margin-bottom: 10px;
+}
+
+.form {
+  max-width: 430px;
+}
+
+.error {
+  color: red;
+}
